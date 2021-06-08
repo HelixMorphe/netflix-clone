@@ -1,0 +1,36 @@
+.nav {
+  width: 90%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  width: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.nav__profile {
+  width: 50px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.nav--bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background-image: linear-gradient(
+    0deg,
+    rgba(143, 143, 143, 0),
+    rgb(20, 20, 20)
+  );
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-timing-function: ease-in-out;
+
+  transition: all 0.5s;
+}
+.nav--black--bar {
+  background-color: black !important;
+}
